@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 <style>
-.marquee1{
+.marquee1,.marquee2,.marquee3{
     font-size: 30px;
 	background-image: linear-gradient(359deg,rgb(31 6 239 / 55%) 0%,rgb(255 255 255 / 38%) 100%);
 }
@@ -83,16 +83,14 @@
 
             <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
                 <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
-                <video width="100%" height="100%" class="videos" id="video" controls loop autoplay muted>
-                    <source src="fh.MP4" type="video/mp4" />
-                </video>
+                   
             </div>
         </div>
     </div>
     <div class="carousel-item">
     <div class="row" >
     <h2 class="text-center text-white">News City</h2>
-        <div class="marquee1">
+        <div class="marquee2">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
         <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
@@ -106,16 +104,14 @@
 
             <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
                 <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
-                <video width="100%" height="100%" class="videos" id="video" controls loop autoplay muted>
-                    <source src="fh.MP4" type="video/mp4" />
-                </video>
+              
             </div>
         </div>
     </div>
     <div class="carousel-item">
     <div class="row" >
     <h2 class="text-center text-white">Alphatech City</h2>
-        <div class="marquee1">
+        <div class="marquee3">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
         <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
@@ -126,12 +122,9 @@
             <div class="col-md-5 rowcolor" id="panel_window">
                 <div class="row" width="100%"  id="chart4"></div>
             </div>
-
             <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
                 <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
-                <video width="100%" height="100%" class="videos" id="video" controls loop autoplay muted>
-                    <source src="fh.MP4" type="video/mp4" />
-                </video>
+             
             </div>
         </div>
     </div>
@@ -142,7 +135,6 @@
     
     <footer class="footer">
         <div class="marquee">
-        <div >
         <span class="badge bg-company">Lana City</span>
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -157,7 +149,6 @@
         <span class="badge bg-red">55M <i class="fa fa-arrow-down"></i>  700$ </span> 
         <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  420$</span> 
         <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 210$ </span> 
-        </div>
   </div>
     </footer>
     <script src="{{ asset('js/jquery.js') }}"></script>
@@ -170,7 +161,47 @@
 
 
     <script>
-        
+$_marquee = $('div.marquee');
+$_marquee1 = $('div.marquee1');
+$_marquee2 = $('div.marquee2');
+$_marquee3 = $('div.marquee3');
+            function initMarquee() {
+                $_marquee.marquee({
+                    duration: 20000,
+                    gap: 100,
+                    delayBeforeStart: 0,
+                    direction:'left'
+                });
+            };
+
+               function initMarquee1() {
+                $_marquee1.marquee({
+                    duration:20000,
+                    gap: 100,
+                    delayBeforeStart: 0,
+                    direction:'right'
+                });
+                
+            };
+            function initMarquee2() {
+                $_marquee2.marquee({
+                    duration:10000,
+                    gap: 100,
+                    delayBeforeStart: 0,
+                    direction: 'right' 
+                });
+                
+            };
+            function initMarquee3() {
+                $_marquee3.marquee({
+                    duration:10000,
+                    gap: 100,
+                    delayBeforeStart: 0,
+                    direction:'right'
+                });
+                
+            };
+
         $(document).ready(function() {
   
   
@@ -180,10 +211,10 @@
   },
   series: [{
     name: 'sales',
-    data: [30,40,45,50,49,60,70,91,125]
+    data: [30,40,45,50,49,60,70,91,125,100,30,40,45,50,49,60,70,91,80,100,30,40,45,60,49,60,70,91,125,100,]
   }],
   xaxis: {
-    categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999]
+    categories: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
   }
 }
 
@@ -202,49 +233,12 @@ new Splide( '.splide',{
 chart1.render();
 chart2.render();
 chart3.render();
-chart4.render();
-$_marquee = $('div.marquee');
-$_marquee1 = $('div.marquee1');
-            function initMarquee() {
-                $_marquee.marquee({
-                    duration: 5000,
-                    gap: 50,
-                    delayBeforeStart: 0,
-                    direction:'left'
-                });
-            };
+chart4.render(); 
 
-            $(window).on('resize', function() {
-                $_marquee.marquee('destroy');
-                initMarquee();
-            });
-
-            setInterval(function() {
-                location.reload();
-            }, 10800000);
-
-            initMarquee();
-
-            function initMarquee1() {
-                $_marquee1.marquee({
-                    duration: 5000,
-                    gap: 50,
-                    delayBeforeStart: 0,
-                    direction: ($('html').attr('lang') == 'ar') ? 'right' : 'left'
-                });
-            };
-
-            $(window).on('resize', function() {
-                $_marquee1.marquee('destroy');
-                initMarquee();
-            });
-
-            setInterval(function() {
-                location.reload();
-            }, 10800000);
-
-            initMarquee1();
-            
+initMarquee();
+initMarquee1();     
+initMarquee2();
+initMarquee3();   
         });
         
 
