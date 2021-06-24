@@ -150,6 +150,13 @@
         <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
         <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
         <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
+        <span class="badge bg-company">News City</span>
+        <span class="badge bg-green">200M <i class="fa fa-arrow-up"></i>  500$ </span>
+        <span class="badge bg-red">120M <i class="fa fa-arrow-down"></i> 550$  </span> 
+        <span class="badge bg-green">100M <i class="fa fa-arrow-up"></i> 600$ </span> 
+        <span class="badge bg-red">55M <i class="fa fa-arrow-down"></i>  700$ </span> 
+        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  420$</span> 
+        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 210$ </span> 
         </div>
   </div>
     </footer>
