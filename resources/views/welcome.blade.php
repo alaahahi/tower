@@ -36,7 +36,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div class="row" >
-        <h2 class="text-center text-white">Lana City</h2>
+        <h2 class="text-center text-white bg-company" style="background-color: #198754"> Lana City</h2>
         <div class="marquee1">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -92,7 +92,7 @@
     </div>
     <div class="carousel-item">
     <div class="row" >
-    <h2 class="text-center text-white">News City</h2>
+    <h2 class="text-center text-white" style="background-color: #0a58ca">News City</h2>
         <div class="marquee2">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -113,7 +113,7 @@
     </div>
     <div class="carousel-item">
     <div class="row" >
-    <h2 class="text-center text-white">Alphatech City</h2>
+    <h2 class="text-center text-white" style="background-color: #dc3545">Alphatech City</h2>
         <div class="marquee3">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
