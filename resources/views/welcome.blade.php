@@ -63,7 +63,7 @@
         <li class="splide__slide">
         <div class="row" >
         <div class="col-md-5 rowcolor" id="panel_window">
-        <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
+        <h2 class="text-center"><span class="badge bg-red">100M <i class="fa fa-arrow-down"></i>  550$ Per 1M Buy Now</span></h2>
             <div  width="100%"  id="chart1">
             </div>
             </div>
@@ -75,7 +75,7 @@
         <li class="splide__slide">
         <div class="row" >
         <div class="col-md-5 rowcolor" id="panel_window">
-        <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
+        <h2 class="text-center"><span class="badge bg-green">50M <i class="fa fa-arrow-up"></i>  600$ Per 1M Buy Now</span></h2>
             <div  width="100%"  id="chart2">
             </div>
             </div>
@@ -207,7 +207,11 @@ $_marquee3 = $('div.marquee3');
             };
 
         $(document).ready(function() {
-  
+            var myCarousel = document.querySelector('#carouselExampleIndicators')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 10000,
+  wrap: false
+})
   
             var options = {
   chart: {
