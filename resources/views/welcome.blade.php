@@ -106,7 +106,9 @@
             </div>
 
             <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <img src="Towers1.jpg" width="90%" height="90%" alt="" id="client_image">
+            <video autoplay width="90%" height="90%" loop muted>
+            <source src="2.mp4" type="video/mp4" />
+            </video>
             </div>
         </div>
     </div>
