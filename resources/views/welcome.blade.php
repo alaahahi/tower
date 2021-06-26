@@ -212,8 +212,7 @@ $_marquee3 = $('div.marquee3');
         $(document).ready(function() {
             var myCarousel = document.querySelector('#carouselExampleIndicators')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 10000,
-  wrap: false
+  interval: 12000,
 })
   
             var options = {
