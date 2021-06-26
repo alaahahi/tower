@@ -34,8 +34,8 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row" >
-                        <h2 class="text-center text-white bg-company" style="background-color: #ffc107"> 
-                        M P C Group</h2>
+                        <h2 class="text-center text-white bg-company" style="background-color: #6c3875"> 
+                        Star Towers MPC</h2>
                         <div class="marquee1">
                         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
                         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -50,14 +50,14 @@
 
                             <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
                             <video autoplay width="90%" height="90%" loop muted>
-                            <source src="2.mp4" type="video/mp4" />
+                            <source src="3.mp4" type="video/mp4" />
                             </video>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="row" >
-                    <h2 class="text-center text-white" style="background-color: #0a58ca">Lalav City</h2>
+                    <h2 class="text-center text-white" style="background-color: #0a58ca">LALAV VIEW  MPC</h2>
                         <div class="marquee2">
                         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
                         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -79,7 +79,7 @@
                     </div>
                     <div class="carousel-item">
                     <div class="row" >
-                    <h2 class="text-center text-white" style="background-color: #dc3545">Alphatech City</h2>
+                    <h2 class="text-center text-white" style="background-color: #dc3545">QUATRO TOWERS MPC</h2>
                         <div class="marquee3">
                         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
                         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
@@ -105,14 +105,21 @@
     </div>
     <footer class="footer">
         <div class="marquee">
-        <span class="badge bg-company">Lana City</span>
+        <span class="badge bg-company">Star Towers MPC</span>
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
         <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
         <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
         <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
         <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
-        <span class="badge bg-company">News City</span>
+        <span class="badge bg-company">LALAV VIEW  MPC</span>
+        <span class="badge bg-green">200M <i class="fa fa-arrow-up"></i>  500$ </span>
+        <span class="badge bg-red">120M <i class="fa fa-arrow-down"></i> 550$  </span> 
+        <span class="badge bg-green">100M <i class="fa fa-arrow-up"></i> 600$ </span> 
+        <span class="badge bg-red">55M <i class="fa fa-arrow-down"></i>  700$ </span> 
+        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  420$</span> 
+        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 210$ </span> 
+        <span class="badge bg-company">>QUATRO TOWERS MPC</span>
         <span class="badge bg-green">200M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">120M <i class="fa fa-arrow-down"></i> 550$  </span> 
         <span class="badge bg-green">100M <i class="fa fa-arrow-up"></i> 600$ </span> 
