@@ -174,6 +174,7 @@ $_marquee3 = $('div.marquee3');
                     gap: 100,
                     delayBeforeStart: 0,
                     direction:'left'
+                    
                 });
             };
 
@@ -231,6 +232,8 @@ new Splide( '.splide',{
                 'cover'      : true,
                 type     : 'loop',
                 autoplay    : true,
+                direction  : 'ttb',
+	            height: '35%',
             } ).mount();
             chart.render();
 chart1.render();
