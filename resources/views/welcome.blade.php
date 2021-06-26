@@ -15,21 +15,6 @@
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
-<style>
-.marquee1,.marquee2,.marquee3{
-    font-size: 30px;
-	background-image: linear-gradient(359deg,rgb(31 6 239 / 55%) 0%,rgb(255 255 255 / 38%) 100%);
-}
-.bg-green{
-    background-color:green;
-}
-.bg-red{
-    background-color:red;
-}
-.bg-company{
-    background-color:#0a58ca;
-}
-</style>
 <body>
    
 
@@ -60,31 +45,49 @@
         <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
         <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
         </div>
-            <div class="col-md-5 rowcolor" id="panel_window">
             <div class="splide">
 	<div class="splide__track">
 		<ul class="splide__list">
         <li class="splide__slide">
+        <div class="row" >
+        <div class="col-md-5 rowcolor" id="panel_window">
         <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
             <div  width="100%"  id="chart">
-            </div></li>
-        <li class="splide__slide"><div  width="100%"  id="chart1">
-        <h2 class="text-center"><span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  Per 1M Buy Now </span> </h2>
-        </div></li>
+            </div>
+            </div>
+        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+        <img src="Towers.jpg" width="90%" height="90%" alt="" id="client_image">
+        </div>
+        </div>
+        </li>
         <li class="splide__slide">
-        <h2 class="text-center"><span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ Per 1M Buy Now</span> </h2>
+        <div class="row" >
+        <div class="col-md-5 rowcolor" id="panel_window">
+        <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
+            <div  width="100%"  id="chart1">
+            </div>
+            </div>
+        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+        <img src="1.jpg" width="90%" height="90%" alt="" id="client_image">
+        </div>
+        </div>
+        </li>
+        <li class="splide__slide">
+        <div class="row" >
+        <div class="col-md-5 rowcolor" id="panel_window">
+        <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
             <div  width="100%"  id="chart2">
-            </div></li>
+            </div>
+            </div>
+        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+        <img src="img/3.jpg" width="90%" height="90%" alt="" id="client_image">
+        </div>
+        </div>
+        </li>
 		</ul>
 	</div>
 </div>
-          
-            </div>
 
-            <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
-                <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
-                   
-            </div>
         </div>
     </div>
     <div class="carousel-item">
@@ -102,8 +105,8 @@
                 <div class="row" width="100%"  id="chart3"></div>
             </div>
 
-            <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
-                <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
+            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+                <img src="Towers1.jpg" width="90%" height="90%" alt="" id="client_image">
               
             </div>
         </div>
@@ -122,8 +125,8 @@
             <div class="col-md-5 rowcolor" id="panel_window">
                 <div class="row" width="100%"  id="chart4"></div>
             </div>
-            <div class="col-md-7 animated zoomIn vanim" id='mediaSection' isVisible="1">
-                <img src="" width="90%" height="90%" alt="" class="divhide" id="client_image">
+            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+            <img src="Towers2.jpg" width="90%" height="90%" alt="" id="client_image">
              
             </div>
         </div>
