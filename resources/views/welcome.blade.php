@@ -126,7 +126,9 @@
                 <div class="row" width="100%"  id="chart4"></div>
             </div>
             <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <img src="Towers2.jpg" width="90%" height="90%" alt="" id="client_image">
+            <video width="90%" height="90%" autoplay>
+    <source src="1.mp4" type="video/mp4" />
+</video>
              
             </div>
         </div>
