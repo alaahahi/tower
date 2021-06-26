@@ -106,9 +106,7 @@
             </div>
 
             <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <video width="90%" height="90%" autoplay loop>
-    <source src="2.mp4" type="video/mp4" />
-</video>
+            <img src="Towers1.jpg" width="90%" height="90%" alt="" id="client_image">
             </div>
         </div>
     </div>
@@ -192,7 +190,7 @@ $_marquee3 = $('div.marquee3');
             };
             function initMarquee2() {
                 $_marquee2.marquee({
-                    duration:10000,
+                    duration:20000,
                     gap: 100,
                     delayBeforeStart: 0,
                     direction: 'right' 
@@ -201,7 +199,7 @@ $_marquee3 = $('div.marquee3');
             };
             function initMarquee3() {
                 $_marquee3.marquee({
-                    duration:10000,
+                    duration:20000,
                     gap: 100,
                     delayBeforeStart: 0,
                     direction:'right'
