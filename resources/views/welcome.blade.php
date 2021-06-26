@@ -36,7 +36,8 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div class="row" >
-        <h2 class="text-center text-white bg-company" style="background-color: #ffc107"> Lana City</h2>
+        <h2 class="text-center text-white bg-company" style="background-color: #ffc107"> 
+        M P C Group</h2>
         <div class="marquee1">
         <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
         <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
