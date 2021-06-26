@@ -125,9 +125,9 @@
                 <div class="row" width="100%"  id="chart4"></div>
             </div>
             <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <video width="90%" height="90%" autoplay loop>
-    <source src="1.mp4" type="video/mp4" />
-</video>
+            <video width="90%" height="90%" loop autoplay>
+            <source src="1.mp4" type="video/mp4" />
+            </video>
              
             </div>
         </div>
@@ -245,7 +245,9 @@ chart1.render();
 chart2.render();
 chart3.render();
 chart4.render(); 
+myCarousel.addEventListener('slide.bs.carousel', function () {
 
+})
 initMarquee();
 initMarquee1();     
 initMarquee2();
