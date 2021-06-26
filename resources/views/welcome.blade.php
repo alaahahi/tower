@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 <body>
-   
-
     <div class="fullscreen">
         <div class="row brand">
             <div class="col-md-1 animated fadeInRight loganmi">
@@ -27,119 +25,84 @@
             </div>
         </div>
         <div class="row" >
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <div class="row" >
-        <h2 class="text-center text-white bg-company" style="background-color: #ffc107"> 
-        M P C Group</h2>
-        <div class="marquee1">
-        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
-        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
-        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
-        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
-        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
-        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
-        </div>
-            <div class="splide">
-	<div class="splide__track">
-		<ul class="splide__list">
-        <li class="splide__slide">
-        <div class="row" >
-        <div class="col-md-5 rowcolor" id="panel_window">
-        <h2 class="text-center"><span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ Per 1M Buy Now</span></h2>
-            <div  width="100%"  id="chart">
-            </div>
-            </div>
-        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-        <img src="Towers.jpg" width="90%" height="90%" alt="" id="client_image">
-        </div>
-        </div>
-        </li>
-        <li class="splide__slide">
-        <div class="row" >
-        <div class="col-md-5 rowcolor" id="panel_window">
-        <h2 class="text-center"><span class="badge bg-red">100M <i class="fa fa-arrow-down"></i>  550$ Per 1M Buy Now</span></h2>
-            <div  width="100%"  id="chart1">
-            </div>
-            </div>
-        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-        <img src="1.jpg" width="90%" height="90%" alt="" id="client_image">
-        </div>
-        </div>
-        </li>
-        <li class="splide__slide">
-        <div class="row" >
-        <div class="col-md-5 rowcolor" id="panel_window">
-        <h2 class="text-center"><span class="badge bg-green">50M <i class="fa fa-arrow-up"></i>  600$ Per 1M Buy Now</span></h2>
-            <div  width="100%"  id="chart2">
-            </div>
-            </div>
-        <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-        <img src="img/3.jpg" width="90%" height="90%" alt="" id="client_image">
-        </div>
-        </div>
-        </li>
-		</ul>
-	</div>
-</div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row" >
+                        <h2 class="text-center text-white bg-company" style="background-color: #ffc107"> 
+                        M P C Group</h2>
+                        <div class="marquee1">
+                        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
+                        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
+                        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
+                        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
+                        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
+                        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
+                        </div>
+                        <div class="col-md-5 rowcolor " id="panel_window">
+                                <div class="row" width="100%"  id="chart"></div>
+                            </div>
 
-        </div>
-    </div>
-    <div class="carousel-item">
-    <div class="row" >
-    <h2 class="text-center text-white" style="background-color: #0a58ca">Lalav City</h2>
-        <div class="marquee2">
-        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
-        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
-        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
-        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
-        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
-        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
-        </div>
-            <div class="col-md-5 rowcolor " id="panel_window">
-                <div class="row" width="100%"  id="chart3"></div>
-            </div>
+                            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+                            <video autoplay width="90%" height="90%" loop muted>
+                            <source src="2.mp4" type="video/mp4" />
+                            </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="row" >
+                    <h2 class="text-center text-white" style="background-color: #0a58ca">Lalav City</h2>
+                        <div class="marquee2">
+                        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
+                        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
+                        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
+                        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
+                        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
+                        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
+                        </div>
+                            <div class="col-md-5 rowcolor " id="panel_window">
+                                <div class="row" width="100%"  id="chart1"></div>
+                            </div>
 
-            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <video autoplay width="90%" height="90%" loop muted>
-            <source src="2.mp4" type="video/mp4" />
-            </video>
+                            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+                            <video autoplay width="90%" height="90%" loop muted>
+                            <source src="2.mp4" type="video/mp4" />
+                            </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="row" >
+                    <h2 class="text-center text-white" style="background-color: #dc3545">Alphatech City</h2>
+                        <div class="marquee3">
+                        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
+                        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
+                        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
+                        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
+                        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
+                        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
+                        </div>
+                            <div class="col-md-5 rowcolor" id="panel_window">
+                                <div class="row" width="100%"  id="chart2"></div>
+                            </div>
+                            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
+                            <video autoplay width="90%" height="90%" loop muted>
+                            <source src="1.mp4" type="video/mp4" />
+                            </video>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="carousel-item">
-    <div class="row" >
-    <h2 class="text-center text-white" style="background-color: #dc3545">Alphatech City</h2>
-        <div class="marquee3">
-        <span class="badge bg-green">150M <i class="fa fa-arrow-up"></i>  500$ </span>
-        <span class="badge bg-red">100M <i class="fa fa-arrow-down"></i> 550$  </span> 
-        <span class="badge bg-green">90M <i class="fa fa-arrow-up"></i> 600$ </span> 
-        <span class="badge bg-red">65M <i class="fa fa-arrow-down"></i>  700$ </span> 
-        <span class="badge bg-green">House <i class="fa fa-arrow-up"></i>  400$</span> 
-        <span class="badge bg-red">villa <i class="fa fa-arrow-down"></i> 250$ </span> 
-        </div>
-            <div class="col-md-5 rowcolor" id="panel_window">
-                <div class="row" width="100%"  id="chart4"></div>
-            </div>
-            <div class="col-md-7 animated zoomIn vanim text-center" id='mediaSection' isVisible="1">
-            <video autoplay width="90%" height="90%" loop muted>
-            <source src="1.mp4" type="video/mp4" />
-            </video>
-             
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
-</div>
-    </div>
-    
     <footer class="footer">
         <div class="marquee">
         <span class="badge bg-company">Lana City</span>
@@ -210,8 +173,8 @@ $_marquee3 = $('div.marquee3');
                 
             };
 
-        $(document).ready(function() {
-            var myCarousel = document.querySelector('#carouselExampleIndicators')
+$(document).ready(function() {
+var myCarousel = document.querySelector('#carouselExampleIndicators')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 12000,
 })
@@ -235,14 +198,8 @@ var chart2 = new ApexCharts(document.querySelector("#chart2"), options);
 var chart3 = new ApexCharts(document.querySelector("#chart3"), options);
 var chart4 = new ApexCharts(document.querySelector("#chart4"), options);
 
-new Splide( '.splide',{
-                'cover'      : true,
-                type     : 'loop',
-                autoplay    : true,
-                direction  : 'ttb',
-	            height: '35%',
-            } ).mount();
-            chart.render();
+
+chart.render();
 chart1.render();
 chart2.render();
 chart3.render();
